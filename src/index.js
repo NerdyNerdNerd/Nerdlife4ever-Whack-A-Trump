@@ -276,7 +276,7 @@ function stopGame(){
 */
 function startGame(){
   setDuration(20);
-  //audio.play();
+  audio.play();
   showUp();
   setEventListeners();
   startTimer();
